@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+    background-color: rgb(29, 0, 45);
+    color: white;
+}
+
+#outcome {
+    font-size: 48px;
+    margin-left: 60px;
+}
+
+#buttons {
+    display: flex;
+    width: 35%;
+    justify-content: space-evenly;
+}
+
+.scores {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+}
+
+.paper-header {
+    margin-left: 15px;
+}
+
+.rock-header {
+    margin-left: 50px;
+}
+
+.scissor-header {
+    margin-right: 25px;
+}
+
+button {
+    width: 200px;
+    height: 200px;
+    font-size: 125px;
+    border-radius: 10px;
+    border-width: 5px;
+    border-color: black;
+}
+
+button:hover {
+    background-color: darkgrey;
+    transition: .15s;
+}
