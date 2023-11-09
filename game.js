@@ -3,17 +3,11 @@ function game(user_input, cpu_input){
             return 'draw'
         } else if (user_input == "ROCK" && cpu_input == "SCISSORS"){
             return 'player'
-        } else if (user_input == "ROCK" && cpu_input == "PAPER"){
-            return 'cpu'
-        } else if (user_input == "SCISSORS" && cpu_input == "ROCK"){
-            return 'cpu'
         } else if (user_input == "SCISSORS" && cpu_input == "PAPER"){
             return 'player'
         } else if (user_input == "PAPER" && cpu_input == "ROCK"){
             return 'player'
-        } else if (user_input == "PAPER" && cpu_input == "SCISSORS"){
-            return 'cpu'
-        } 
+        } else return 'cpu'
 }
 
 const buttons = document.querySelector('#buttons')
